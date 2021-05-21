@@ -23,11 +23,11 @@ sections:
 - type: document
   path: src/_data/tokens.json
   label: Theme settings
-upload_dir: src/images
-public_path: "/images"
+upload_dir: path/to/uploads
+public_path: "/path/to/media"
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":filename:"
+use_front_matter_path: true
+file_template: 'filename:/:filename:'
 build:
   preview_env:
   - ELEVENTY_ENV=staging
